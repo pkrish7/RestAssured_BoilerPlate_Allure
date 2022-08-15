@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/preethyk/Documents/IT/RestAssured_BoilerPlate">
+        <classes>
+            <class name="testCases.TestCases">
+                <methods>
+                    <include name="testGetRequest_HappyCase"/>
+                    <include name="testGetRequest_UnhappyCase"/>
+                    <include name="testPostRequest_HappyCase"/>
+                    <include name="testPostRequest_UnhappyCase"/>
+                    <include name="testPutRequest_HappyCase"/>
+                    <include name="testDeleteRequest_HappyCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
